@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>IndiGo Boarding Pass</title>
+<style>
+body {
+  margin: 0;
+  height: 100vh;
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+  width: 720px;
+  height: 360px;
+  background: linear-gradient(135deg, #0a2fbf, #0b1f7a);
+  border-radius: 28px;
+  color: #fff;
+  padding: 32px 40px;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 26px;
+}
+.logo {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 2px solid rgba(255,255,255,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.divider {
+  height: 1px;
+  background: rgba(255,255,255,0.25);
+  margin: 22px 0 28px;
+}
+.route {
+  font-size: 56px;
+}
+.name {
+  font-size: 24px;
+}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <div class="logo">✈</div>
+      <div>IndiGo Airlines</div>
+    </div>
+    <div class="divider"></div>
+    <div class="route">HDO to VNS</div>
+    <div class="divider"></div>
+    <div class="name">MISHRA/VINAY KUMAR/M</div>
+  </div>
+</body>
+</html>
